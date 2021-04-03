@@ -3,7 +3,7 @@ import './Brand.scss';
 
 const Brand = () => {
     return (
-        <h1 className='brand'>
+        <h1>
           MS.  
         </h1>
     )

@@ -3,7 +3,7 @@ import './NavigationItem.scss';
 
 const NavigationItem = ({label, section, logo}) => {
     return (
-        <a href={`#${section}`} className='navigation-item'>
+        <a href={`#${section}`}>
            {label} 
         </a>
     )
