@@ -15,6 +15,9 @@ function App() {
     <div className="App">
       <Header />
       <HomeSection />
+      <div id="about">
+        About
+      </div>
     </div>
   );
 }

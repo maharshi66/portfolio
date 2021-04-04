@@ -22,7 +22,7 @@ const Header = () => {
                 {
                     navigationItems.map((item, idx) => (
                         <NavigationItem 
-                            className='navigation-item' 
+                            onClick={handleMenuIconClick}
                             key={idx} 
                             label={item.label} 
                             section={item.section}
