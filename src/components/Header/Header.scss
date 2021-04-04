@@ -9,29 +9,21 @@
 .brand {
   color: gold;
   justify-self: start;
-  cursor: pointer;
 }
 
 .menu-icon {
   display: none;
+  color: lightgray;
 }
 
 .options-container {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(8, auto);
   grid-gap: 2rem;
   text-align: center;
   align-items: center;
   justify-content: end;
   width: 70vw;
-}
-
-.navigation-item {
-  text-decoration: none;
-}
-
-.navigation-item:hover {
-  background: #db7093;
 }
 
 @media screen and (max-width: 960px) {
@@ -42,8 +34,9 @@
   .options-container {
     display: flex;
     flex-direction: column;
+    background: darkblue;
     width: 100%;
-    height: 280px;
+    height: 500px;
     position: absolute;
     top: 80px;
     left: -100%;

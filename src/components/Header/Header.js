@@ -12,8 +12,8 @@ const Header = () => {
     }
 
     return (
-        <div className='header'>
-            <Brand className='brand'/>
+        <div className='header my-3'>
+            <Brand text='MS.' className='brand'/>
             <div className='menu-icon'>
                 <i onClick={handleMenuIconClick} className={ menuIconClicked ? 'fas fa-times' : 'fas fa-bars'}>
                 </i>
@@ -25,7 +25,9 @@ const Header = () => {
                             className='navigation-item' 
                             key={idx} 
                             label={item.label} 
-                            section={item.section} />
+                            section={item.section}
+                            logo={item.logo}
+                            linkUrl={item.linkUrl} />
                     ))
                 }
             </div>
