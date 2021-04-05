@@ -1,0 +1,12 @@
+.introduction {
+  color: lightgray;
+  font-size: 18px;
+  text-align: left;
+}
+
+@media screen and (max-width: 960px) {
+  .introduction {
+    font-size: 15px;
+    text-align: center;
+  }
+}

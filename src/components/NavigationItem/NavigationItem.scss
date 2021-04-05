@@ -1,11 +1,11 @@
-a {
+.nav-link {
   position: relative;
   text-decoration: none;
   color: lightgray;
   font-family: 'Montserrat';
 }
 
-a::before {
+.nav-link::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -18,11 +18,12 @@ a::before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:hover::before {
+.nav-link:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
 
-a:link {
+.nav-link:hover {
   text-decoration: none;
+  color: lightgray;
 }

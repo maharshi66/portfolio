@@ -12,12 +12,11 @@ function App() {
   }, [])
   
   return (
-    <div className="App">
+    <div data-aos="fade-left"
+      data-aos-delay="200"
+      className="App">
       <Header />
       <HomeSection />
-      <div id="about">
-        About
-      </div>
     </div>
   );
 }

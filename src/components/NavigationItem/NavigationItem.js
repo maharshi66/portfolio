@@ -6,11 +6,11 @@ const NavigationItem = ({label, section, logo, linkUrl, onClick}) => {
         <div>
         {
             logo ? 
-            <a href={`${linkUrl}`}  target="_blank" rel="noreferrer">
+            <a className='nav-link' href={`${linkUrl}`}  target="_blank" rel="noreferrer">
                 <i className={logo}></i>
             </a>
             :
-            <a onClick={onClick} href={`#${section}`}>
+            <a className='nav-link' onClick={onClick} href={`#${section}`}>
                 {label} 
             </a>
         }

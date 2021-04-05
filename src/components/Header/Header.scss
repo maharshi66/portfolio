@@ -2,12 +2,10 @@
   height: 70px;
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .brand {
-  color: gold;
   justify-self: start;
 }
 
@@ -19,11 +17,11 @@
 .options-container {
   display: grid;
   grid-template-columns: repeat(8, auto);
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   text-align: center;
   align-items: center;
   justify-content: end;
-  width: 70vw;
+  width: 100vw;
 }
 
 @media screen and (max-width: 960px) {
@@ -53,7 +51,7 @@
 
   .navigation-item {
     text-align: center;
-    padding: 2rem;
+    padding: 0.5rem;
     width: 100%;
     display: table;
   }

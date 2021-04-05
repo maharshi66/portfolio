@@ -2,33 +2,51 @@ import React from 'react'
 import Brand from '../components/Brand/Brand'
 import { Row, Col, Container } from 'react-bootstrap';
 import ProfileImage from '../components/ProfileImage/ProfileImage';
-import Introduction from '../components/Introduction/Introduction';
 import './HomeSection.scss';
+import SocialMediaLinks from '../components/SocialMediaLinks/SocialMediaLinks';
 import CustomButton from '../components/CustomButton/CustomButton';
+import CustomParagraph from '../components/CustomPararaph/CustomParagraph';
+import CustomTitle from '../components/CustomTitle/CustomTitle';
 
 const HomeSection = () => {
     return (
         <div 
-            data-aos="fade-left"
-            data-aos-delay="50"
+            data-aos="fade-up"
+            data-aos-delay="400"
             data-aos-duration="1000"
             data-aos-easing="ease-in-linear">
 
-        <Container className="px-5 my-5" fluid>
-            <Row className="align-items-center text-center">
-                <Col className="text-justify" xs={12} md={4}>
-                    <Row>
+        <Container className="my-5" fluid>
+            <Row className="align-items-center">
+                <Col
+                    data-aos="zoom-out"
+                    data-aos-delay="800" 
+                    className="py-3" xs={12} md={4}>
+                    <Row className='justify-content-center justify-content-md-start'>
                         <Brand text='Maharshi Shah.'/>
                     </Row>
-                    <Row>
-                        <CustomButton />
-                    </Row>   
+                    <Row className='text-center'>
+                        <CustomTitle type='title-home-section' title='Full Stack Web and Mobile Developer' /> 
+                    </Row> 
+                    <Row className='justify-content-center justify-content-md-start'>
+                        <SocialMediaLinks />
+                    </Row> 
                 </Col>
-                <Col xs={12} md={4}>
+                <Col className="py-3" xs={12} md={4}>
                     <ProfileImage />
                 </Col >
-                <Col xs={12} md={4}>
-                    <Introduction />
+                <Col className="py-3" xs={12} md={4} >
+                    <Row>
+                    <CustomParagraph 
+                        type='introduction' 
+                        text="I'm a Mumbai based software engineer who loves 
+                        to build seamlessly integrated applications for 
+                        the web and mobile platforms." />
+                    </Row>
+                    <Row  className='justify-content-center justify-content-md-start'>
+                        <CustomButton text='More' icon='fas fa-arrow-down' isAnchor={true} />
+                        <CustomButton text='Resume' />
+                    </Row>  
                 </Col>
             </Row>
         </Container>

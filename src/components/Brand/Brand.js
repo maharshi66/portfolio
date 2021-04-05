@@ -1,9 +1,9 @@
 import React from 'react';
 import './Brand.scss';
 
-const Brand = ({text}) => {
+const Brand = ({size, text}) => {
     return (
-        <h2 className='brand-color'>
+        <h2 className={`brand-color text-center ${size}`}>
           {text}  
         </h2>
     )

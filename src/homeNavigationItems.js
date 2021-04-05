@@ -1,30 +1,10 @@
-const navigationItems = [
-    {
-        label: "Home",
-        section: "home",
-        logo: ''
-    },
-    {
-        label: "About",
-        section: "about",
-        logo: ''
-    },
-    {
-        label: "Projects",
-        section: "home",
-        logo: ''
-    },
-    {
-        label: "Contact",
-        section: "contact",
-        logo: ''
-    },
+const homeNavigationItems =
+[
     {
         label: "",
         section: "",
         logo: 'fab fa-github',
         linkUrl: 'https://github.com/maharshi66'
-
     },
     {
         label: "",
@@ -38,6 +18,18 @@ const navigationItems = [
         logo: 'fab fa-instagram',
         linkUrl: 'https://www.instagram.com/maharshi_6/'
     },
+    {
+        label: "",
+        section: "",
+        logo: 'fab fa-facebook',
+        linkUrl: 'https://www.facebook.com/maharshi.shah.986227'
+    },
+    {
+        label: "",
+        section: "",
+        logo: 'fab fa-twitter',
+        linkUrl: 'https://www.facebook.com/maharshi.shah.986227'
+    },
 ]; 
 
-export default navigationItems;
+export default homeNavigationItems;

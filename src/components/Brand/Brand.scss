@@ -1,5 +1,4 @@
 .brand-color {
-  letter-spacing: 5px;
   font-weight: bold;
   background-image: linear-gradient(
     to right,
@@ -13,6 +12,9 @@
   );
   color: transparent;
   -webkit-background-clip: text;
-  font-family: 'Prata', serif;
   cursor: pointer;
+}
+
+.small {
+  font-size: 20px;
 }
