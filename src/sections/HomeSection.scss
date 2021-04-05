@@ -8,16 +8,16 @@
 
 .border-gradient {
   border: 10px solid;
-  // border-image-slice: 1;
+  border-image-slice: 1;
   border-width: 3px;
 }
 
-// .border-gradient-color {
-//   border-image-source: linear-gradient(
-//     to right,
-//     #bf953f,
-//     #fcf6ba,
-//     #fbf5b7,
-//     #aa771c
-//   );
-// }
+.border-gradient-color {
+  border-image-source: linear-gradient(
+    to right,
+    #bf953f,
+    #fcf6ba,
+    #fbf5b7,
+    #aa771c
+  );
+}

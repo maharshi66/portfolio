@@ -20,7 +20,7 @@ const HomeSection = () => {
                         <Brand text='Maharshi Shah.'/>
                     </Row>
                     <Row>
-                        <button className='btn border-gradient border-gradient-color'>Resumeee</button>
+                        <button className='btn border-gradient border-gradient-color'>Resume</button>
                     </Row>   
                 </Col>
                 <Col xs={12} md={4}>
@@ -32,8 +32,7 @@ const HomeSection = () => {
             </Row>
         </Container>
         </div>
-    )
-    
+    )    
 }
 
 export default HomeSection
