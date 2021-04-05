@@ -20,7 +20,7 @@ const HomeSection = () => {
                         <Brand text='Maharshi Shah.'/>
                     </Row>
                     <Row>
-                        <button className='btn border-gradient border-gradient-color'>Resume</button>
+                        <button className='btn border-gradient border-gradient-color'>Resumeee</button>
                     </Row>   
                 </Col>
                 <Col xs={12} md={4}>
