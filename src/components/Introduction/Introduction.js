@@ -4,9 +4,9 @@ import './Introduction.css';
 const Introduction = () => {
     return (
         <div className='introduction'>
-            <h2>
+            <h3>
                <strong>Full Stack Developer </strong>
-            </h2>
+            </h3>
         </div>
     )
 }

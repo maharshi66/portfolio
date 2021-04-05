@@ -4,6 +4,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 import ProfileImage from '../components/ProfileImage/ProfileImage';
 import Introduction from '../components/Introduction/Introduction';
 import './HomeSection.scss';
+import CustomButton from '../components/CustomButton/CustomButton';
 
 const HomeSection = () => {
     return (
@@ -20,7 +21,7 @@ const HomeSection = () => {
                         <Brand text='Maharshi Shah.'/>
                     </Row>
                     <Row>
-                        <button className='btn border-gradient border-gradient-color'>Resume</button>
+                        <CustomButton />
                     </Row>   
                 </Col>
                 <Col xs={12} md={4}>
