@@ -3,6 +3,7 @@ import Header from './components/Header/Header'
 import HomeSection from './sections/HomeSection'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import AboutSection from './sections/AboutSection';
 
 function App() {
 
@@ -12,11 +13,10 @@ function App() {
   }, [])
   
   return (
-    <div data-aos="fade-left"
-      data-aos-delay="200"
-      className="App">
+    <div className="App">
       <Header />
       <HomeSection />
+      <AboutSection />
     </div>
   );
 }

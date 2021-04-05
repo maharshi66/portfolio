@@ -5,7 +5,7 @@ import { Image } from 'react-bootstrap';
 const ProfileImage = () => {
     return (
         <div
-        data-aos="flip-left"
+        data-aos="fade-right"
         data-aos-delay="800">
         <Image fluid roundedCircle src={profileImg} alt='profile' />
         </div>

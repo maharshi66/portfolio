@@ -19,14 +19,14 @@ const HomeSection = () => {
         <Container className="my-5" fluid>
             <Row className="align-items-center">
                 <Col
-                    data-aos="zoom-out"
+                    data-aos="fade-right"
                     data-aos-delay="800" 
                     className="py-3" xs={12} md={4}>
                     <Row className='justify-content-center justify-content-md-start'>
                         <Brand text='Maharshi Shah.'/>
                     </Row>
-                    <Row className='text-center'>
-                        <CustomTitle type='title-home-section' title='Full Stack Web and Mobile Developer' /> 
+                    <Row className='justify-content-center justify-content-md-start'>
+                        <CustomTitle type='title-home-section' title='Full Stack Developer' /> 
                     </Row> 
                     <Row className='justify-content-center justify-content-md-start'>
                         <SocialMediaLinks />
@@ -44,8 +44,7 @@ const HomeSection = () => {
                         the web and mobile platforms." />
                     </Row>
                     <Row  className='justify-content-center justify-content-md-start'>
-                        <CustomButton text='More' icon='fas fa-arrow-down' isAnchor={true} />
-                        <CustomButton text='Resume' />
+                        <CustomButton text='Learn More' icon='fas fa-arrow-down' isAnchor={true} />
                     </Row>  
                 </Col>
             </Row>

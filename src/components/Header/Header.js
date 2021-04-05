@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Brand from '../Brand/Brand';
 import NavigationItem from '../NavigationItem/NavigationItem';
 import headerNavigationItems from '../../headerNavigationItems'
+import CustomButton from '../CustomButton/CustomButton';
 import './Header.scss'
 
 const Header = () => {
@@ -30,6 +31,7 @@ const Header = () => {
                             linkUrl={item.linkUrl} />
                     ))
                 }
+                <CustomButton text='Resume' />
             </div>
         </div>
     )

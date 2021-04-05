@@ -24,12 +24,6 @@ const homeNavigationItems =
         logo: 'fab fa-facebook',
         linkUrl: 'https://www.facebook.com/maharshi.shah.986227'
     },
-    {
-        label: "",
-        section: "",
-        logo: 'fab fa-twitter',
-        linkUrl: 'https://www.facebook.com/maharshi.shah.986227'
-    },
 ]; 
 
 export default homeNavigationItems;

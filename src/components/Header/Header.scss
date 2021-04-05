@@ -16,7 +16,7 @@
 
 .options-container {
   display: grid;
-  grid-template-columns: repeat(8, auto);
+  grid-template-columns: repeat(4, auto);
   grid-gap: 1rem;
   text-align: center;
   align-items: center;
@@ -32,10 +32,11 @@
   .options-container {
     display: flex;
     flex-direction: column;
-    background: black;
+    padding: 2rem 2rem;
+    background: rgba(47, 73, 94, 1);
     width: 100%;
-    height: 500px;
-    position: absolute;
+    height: 400px;
+    position: fixed;
     top: 80px;
     left: -120%;
     opacity: 1;
@@ -45,8 +46,8 @@
   .options-container.active {
     left: 0;
     opacity: 1;
-    transition: all 0.5s ease-in-out;
-    z-index: 4;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
   }
 
   .navigation-item {

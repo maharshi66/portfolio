@@ -3,3 +3,10 @@
   font-size: 18px;
   font-weight: bold;
 }
+
+.title-about-section {
+  color: lightgray;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
