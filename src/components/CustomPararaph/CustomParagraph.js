@@ -1,7 +1,7 @@
 import React from 'react'
 import './CustomParagraph.css';
 
-const CustomParagraph = ({text, type}) => {
+const CustomParagraph = ({text, type, children}) => {
     return (
         <div 
             data-aos="fade-right"
@@ -10,6 +10,7 @@ const CustomParagraph = ({text, type}) => {
         <p className={type}>
             {text}
         </p>
+        {children}
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Brand from '../Brand/Brand';
 import NavigationItem from '../NavigationItem/NavigationItem';
-import headerNavigationItems from '../../headerNavigationItems'
+import headerNavigationItems from '../../data/headerNavigationItems'
 import CustomButton from '../CustomButton/CustomButton';
 import './Header.scss'
 
@@ -24,7 +24,8 @@ const Header = () => {
                     headerNavigationItems.map((item, idx) => (
                         <NavigationItem 
                             onClick={handleMenuIconClick}
-                            key={idx} 
+                            key={idx}
+                            cName={item.cName} 
                             label={item.label} 
                             section={item.section}
                             logo={item.logo}

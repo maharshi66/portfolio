@@ -4,9 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SocialMediaLinks from './components/SocialMediaLinks/SocialMediaLinks';
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <div className='fixed-links'> 
+      <SocialMediaLinks />
+    </div>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

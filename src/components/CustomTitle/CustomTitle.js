@@ -1,11 +1,14 @@
 import React from 'react'
 import './CustomTitle.css';
 
-const CustomTitle = ({type, title}) => {
+const CustomTitle = ({type, title, icon}) => {
     return (
-        <h4 className={type}>
-            {title}
-        </h4>
+        <div className='custom-title'>
+            <h4 className={type}>
+                <i className={icon}></i>
+                {title}
+            </h4>
+        </div>
     )
 }
 

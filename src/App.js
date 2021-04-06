@@ -4,7 +4,7 @@ import HomeSection from './sections/HomeSection'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import AboutSection from './sections/AboutSection';
-
+import './App.css'
 function App() {
 
   useEffect(() => {

@@ -17,6 +17,14 @@ a {
   font-size: 16px;
 }
 
+.fixed-links {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 2rem;
+  z-index: 1;
+}
+
 @media screen and (max-width: 960px) {
   .btn {
     padding: 0.2rem 0.2rem;
@@ -24,6 +32,11 @@ a {
   }
 
   .title-home-section {
+    color: lightgray;
+    font-size: 16px;
+  }
+
+  .title-about-section {
     color: lightgray;
     font-size: 16px;
   }
@@ -44,6 +57,14 @@ body {
 @media (max-width: 960px) {
   body {
     background-size: contain;
-    margin: 1rem 1.5rem;
+    margin: 1rem 1rem;
+  }
+
+  .fixed-links {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    padding: 0.8rem;
+    z-index: 1;
   }
 }

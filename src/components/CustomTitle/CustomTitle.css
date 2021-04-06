@@ -1,4 +1,4 @@
-.title-home-section {
+.subtitle-home-section {
   color: lightgray;
   font-size: 18px;
   font-weight: bold;
@@ -6,7 +6,12 @@
 
 .title-about-section {
   color: lightgray;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
-  text-align: center;
+}
+
+.subtitle-about-section {
+  color: lightgray;
+  font-size: 18px;
+  font-weight: bold;
 }
