@@ -1,5 +1,5 @@
 import React from 'react'
-import './CustomButton.css';
+import './CustomButton.scss';
 
 const CustomButton = ({handleClick, icon, text, isAnchor, href}) => {
     return (        
@@ -9,7 +9,7 @@ const CustomButton = ({handleClick, icon, text, isAnchor, href}) => {
                     onClick={handleClick} 
                     className='btn 
                     border-gradient 
-                    border-gradient-color'>
+                    border-gradient-color btn--border'>
                     {text}
                     <i className={icon}></i>
                 </button>
@@ -19,7 +19,7 @@ const CustomButton = ({handleClick, icon, text, isAnchor, href}) => {
                     onClick={handleClick} 
                     className='btn 
                     border-gradient 
-                    border-gradient-color'>
+                    border-gradient-color btn--border'>
                     {text}
                     <i className={icon}></i>
                     </button>
