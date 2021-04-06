@@ -1,11 +1,11 @@
 import React from 'react'
-import Brand from '../components/Brand/Brand'
+import Brand from '../../components/Brand/Brand'
 import { Row, Col, Container } from 'react-bootstrap';
-import ProfileImage from '../components/ProfileImage/ProfileImage';
+import ProfileImage from '../../components/ProfileImage/ProfileImage';
 import './HomeSection.scss';
-import CustomButton from '../components/CustomButton/CustomButton';
-import CustomParagraph from '../components/CustomPararaph/CustomParagraph';
-import CustomTitle from '../components/CustomTitle/CustomTitle';
+import CustomButton from '../../components/CustomButton/CustomButton';
+import CustomParagraph from '../../components/CustomPararaph/CustomParagraph';
+import CustomTitle from '../../components/CustomTitle/CustomTitle';
 
 const HomeSection = () => {
     return (
@@ -25,7 +25,7 @@ const HomeSection = () => {
                         <Brand text='Maharshi Shah.'/>
                     </Row>
                     <Row className='justify-content-center justify-content-md-start'>
-                        <CustomTitle type='subtitle-home-section' title='Full Stack Developer' /> 
+                        <CustomTitle type='subtitle' title='Full Stack Developer' /> 
                     </Row> 
 
                     <Row className='mt-5'>

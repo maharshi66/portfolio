@@ -31,14 +31,14 @@ a {
     font-size: 14px;
   }
 
-  .title-home-section {
+  h4.title {
     color: lightgray;
     font-size: 16px;
   }
 
-  .title-about-section {
+  h4.subtitle {
     color: lightgray;
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 

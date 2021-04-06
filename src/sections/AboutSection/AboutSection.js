@@ -1,22 +1,22 @@
 import React from 'react'
-import CustomTitle from '../components/CustomTitle/CustomTitle';
-import CustomParagraph from '../components/CustomPararaph/CustomParagraph'
+import CustomTitle from '../../components/CustomTitle/CustomTitle';
+import CustomParagraph from '../../components/CustomPararaph/CustomParagraph'
 import './AboutSection.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import ImageLinkContainer from '../components/ImageLinkContainer/ImageLinkContainer';
-import usfSVG from '../assets/usflogo.svg';
-import qtSVG from '../assets/qtlogo.svg';
-import epcncJPG from '../assets/epcnclogo.jpg'
-import embeddedPNG from '../assets/embeddedPNG.png';
+import ImageLinkContainer from '../../components/ImageLinkContainer/ImageLinkContainer';
+import usfSVG from '../../assets/usflogo.svg';
+import qtSVG from '../../assets/qtlogo.svg';
+import epcncJPG from '../../assets/epcnclogo.jpg'
+import embeddedPNG from '../../assets/embeddedPNG.png';
 
 const AboutSection = () => {
     return (
-        <>
-        <CustomTitle title='About' type='title-about-section' />
+        <div className='my-5'>
+        <CustomTitle title='About' type='title' />
         <Container className='about'>
             <Row>
             <Col className='mt-3' xs={12} md={6}>
-                <CustomTitle icon='fas fa-play' title=' Background' type='subtitle-about-section' />
+                <CustomTitle icon='fas fa-play' title=' Background' type='subtitle' />
                     <div className='breif-background'>    
                         <CustomParagraph 
                             text="I'm a software engineer based in Mumbai, India. I earned my Bachelor's degree in Computer Engineering from the 
@@ -56,7 +56,7 @@ const AboutSection = () => {
             </Col>
             </Row>
         </Container>
-        </>
+        </div>
     )
 }
 

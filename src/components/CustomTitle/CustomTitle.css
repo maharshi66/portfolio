@@ -1,17 +1,20 @@
-.subtitle-home-section {
+.subtitle {
   color: lightgray;
   font-size: 18px;
   font-weight: bold;
 }
 
-.title-about-section {
+.title {
   color: lightgray;
   font-size: 30px;
   font-weight: bold;
 }
 
-.subtitle-about-section {
-  color: lightgray;
-  font-size: 18px;
-  font-weight: bold;
+.rotate {
+  animation: rotate 4.5s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
 }
