@@ -6,7 +6,7 @@ const CustomButton = ({handleClick, icon, text, isAnchor, href}) => {
         <>{
             !isAnchor ? 
                 <button 
-                    onClick={handleClick} 
+                    onClick={handleClick}
                     className='btn 
                     border-gradient 
                     border-gradient-color btn--border'>

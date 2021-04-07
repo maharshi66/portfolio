@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <CustomTitle 
-                type={'subtitle'} 
+                type={'footer'} 
                 title=' Designed and built by Maharshi Shah'
                 icon='fab fa-react rotate'  />
         </div>

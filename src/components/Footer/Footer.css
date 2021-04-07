@@ -1,7 +1,4 @@
 .footer {
-  font-size: smaller;
-}
-
-.fa-react {
-  font-size: medium;
+  font-size: 12px;
+  font-family: 'Fira Code';
 }

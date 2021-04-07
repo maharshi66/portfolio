@@ -11,7 +11,7 @@ import embeddedPNG from '../../assets/embeddedPNG.png';
 
 const AboutSection = () => {
     return (
-        <div className='my-5'>
+        <div id="about">
         <CustomTitle title='About' type='title' />
         <Container className='about'>
             <Row>
@@ -37,20 +37,18 @@ const AboutSection = () => {
                     </div>
             </Col>
             <Col className='mt-3' xs={12} md={6}>
-                <Row className='justify-content-center align-items-center'>
-                    <Col>
+                <Row >
+                    <Col xs={6} md={6}>
                         <ImageLinkContainer href='https://www.usf.edu/' imgSrc={usfSVG} alt='usflogo' />
                     </Col>
-                    <Col>
-                        <ImageLinkContainer href='https://www.electropneumatics.com/' imgSrc={epcncJPG} alt='epcnclogo' />
-                    </Col>
-                </Row>
-                <Row className='justify-content-center align-items-center'>
-                    <Col className='justify-content-center'>
+                    <Col xs={6} md={6}>
+                        <Row xs={3} md={2}>
+                            <ImageLinkContainer href='https://www.electropneumatics.com/' imgSrc={epcncJPG} alt='epcnclogo' />
+                            <ImageLinkContainer href='https://en.wikipedia.org/wiki/Embedded_software' imgSrc={embeddedPNG} alt='embeddedlogo' />
+                        </Row>
+                      <Row className='mt-1' xs={2} md={1} >
                         <ImageLinkContainer href='https://www.qt.io/' imgSrc={qtSVG} alt='qtlogo' />
-                    </Col>
-                    <Col>
-                        <ImageLinkContainer href='https://en.wikipedia.org/wiki/Embedded_software' imgSrc={embeddedPNG} alt='embeddedlogo' />
+                      </Row>
                     </Col>
                 </Row>
             </Col>

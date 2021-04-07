@@ -1,6 +1,28 @@
-i.fas,
-i.fab {
-  /* font-size: 1rem;
-  margin: 0.6rem 0; */
+.nav-links {
+  font-size: 1.2rem;
   color: lightgray;
+  display: flex;
+  padding: 1rem 1rem;
+}
+
+.nav-links:hover {
+  color: darkgray;
+  transform: scale(1.4);
+  transition: 0.2s ease-out;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.footer-links {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1rem 1rem;
+  }
 }
