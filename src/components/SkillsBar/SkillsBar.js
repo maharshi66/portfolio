@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container,  Row } from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import CustomTitle from '../CustomTitle/CustomTitle';
 import './SkillsBar.css';
 import skillItems from '../../data/skillItems';
@@ -8,19 +8,14 @@ const SkillsBar = () => {
     return (
         <>
         {
-            skillItems.map(skill => (
-                    <Container>
-                        <CustomTitle type='subtitle' title={skill.skillName} />
-                        <Row className='skills' xs={skill.skillLevel} md={skill.skillLevel}>
-                            <div style={{
-                                        backgroundColor: 'blue',
-                                        color: 'white',
-                                        textAlign: 'right'}}>
-                                {skill.skillLevel}    
+            skillItems.map((skill, idx) => (
+                    <Container key={idx} className='py-1'>
+                        <CustomTitle icon={skill.icon} type='subtitle' title={skill.skillName} />
+                        <div className='skills'>
+                            <div className='skill' style={{width: `${skill.skillLevel}%`}}>
                             </div>
-                        </Row>
+                        </div>
                     </Container>
-                
             ))
         }
         </>  

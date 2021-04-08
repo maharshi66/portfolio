@@ -2,3 +2,18 @@
   background-color: darkgray;
   color: white; /* White text color */
 }
+
+.skill {
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+  );
+  text-align: right;
+  padding: 4px 10px;
+}

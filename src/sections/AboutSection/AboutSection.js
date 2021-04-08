@@ -10,8 +10,10 @@ const AboutSection = () => {
         <div id="about">
         <CustomTitle title='About' type='title' />
         <Container className='about'>
-            <Row xs={12} md={12}>
+            <Row >
                 <AboutBackground />
+            </Row>
+            <Row>
                 <AboutTechnologies/>
             </Row>
         </Container>

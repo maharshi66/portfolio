@@ -1,35 +1,51 @@
 //values between 1-6 ; 1 highest
 const skillItems = [
     {
-        skillName: 'React',
-        skillLevel: 1,
-        icon: 'fa fas-react',
+        skillName: ' C',
+        skillLevel: 90,
+        icon: 'fas fa-code',
     },
     {
-        skillName: 'React',
-        skillLevel: 2,
-        icon: 'fa fas-react',
+        skillName: ' C++',
+        skillLevel: 90,
+        icon: 'fas fa-code',
     },
     {
-        skillName: 'React',
-        skillLevel: 3,
-        icon: 'fa fas-react',
+        skillName: ' JavaScript (ES6+)',
+        skillLevel: 90,
+        icon: 'fas fa-code',
     },
     {
-        skillName: 'React',
-        skillLevel: 4,
-        icon: 'fa fas-react',
+        skillName: ' HTML5/CSS3',
+        skillLevel: 95,
+        icon: 'fas fa-code',
     },
     {
-        skillName: 'React',
-        skillLevel: 2,
-        icon: 'fa fas-react',
+        skillName: ' MongoDB',
+        skillLevel: 70,
+        icon: 'fas fa-database',
     },
     {
-        skillName: 'React',
-        skillLevel: 2,
-        icon: 'fa fas-react',
+        skillName: ' Express.js',
+        skillLevel: 80,
+        icon: 'fab fa-node-js',
     },
+    {
+        skillName: ' React',
+        skillLevel: 90,
+        icon: 'fab fa-react',
+    },
+    {
+        skillName: ' React',
+        skillLevel: 90,
+        icon: 'fab fa-react-redux',
+    },
+    {
+        skillName: ' Node.js',
+        skillLevel: 80,
+        icon: 'fab fa-node-js',
+    },
+
 ]
 
 export default skillItems;
