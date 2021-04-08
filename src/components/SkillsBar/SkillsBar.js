@@ -9,7 +9,7 @@ const SkillsBar = () => {
         <>
         {
             skillItems.map((skill, idx) => (
-                    <Container key={idx} className='py-1'>
+                    <Container key={idx} className='py-2'>
                         <CustomTitle icon={skill.icon} type='subtitle' title={skill.skillName} />
                         <div className='skills'>
                             <div className='skill' style={{width: `${skill.skillLevel}%`}}>

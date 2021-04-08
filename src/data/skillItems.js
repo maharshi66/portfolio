@@ -16,11 +16,6 @@ const skillItems = [
         icon: 'fas fa-code',
     },
     {
-        skillName: ' HTML5/CSS3',
-        skillLevel: 95,
-        icon: 'fas fa-code',
-    },
-    {
         skillName: ' MongoDB',
         skillLevel: 70,
         icon: 'fas fa-database',
@@ -34,11 +29,6 @@ const skillItems = [
         skillName: ' React',
         skillLevel: 90,
         icon: 'fab fa-react',
-    },
-    {
-        skillName: ' React',
-        skillLevel: 90,
-        icon: 'fab fa-react-redux',
     },
     {
         skillName: ' Node.js',
