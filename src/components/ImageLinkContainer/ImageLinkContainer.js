@@ -3,9 +3,9 @@ import {Image} from 'react-bootstrap';
 import './ImageLinkContainer.css'
 const ImageLinkContainer = ({imgSrc, href, alt}) => {
     return (
-            <a  href={href} target='__blank'>
+            <a href={href} target='__blank'>
                 <Image 
-                    className='image-link' 
+                    className='image-link h-100 w-100' 
                     fluid 
                     src={imgSrc} 
                     alt={alt}

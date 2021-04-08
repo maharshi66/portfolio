@@ -13,7 +13,7 @@ const Header = () => {
     }
 
     return (
-        <div className='header my-3'>
+        <div id="header" className='header my-3'>
             <Brand size='small' text='MS.' className='brand'/>
             <div className='menu-icon'>
                 <i onClick={handleMenuIconClick} className={ menuIconClicked ? 'fas fa-times' : 'fas fa-bars'}>

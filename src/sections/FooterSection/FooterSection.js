@@ -5,7 +5,7 @@ import './FooterSection.css';
 
 const FooterSection = () => {
     return (
-        <div className='mt-5 mb-1'>
+        <div className='mt-5'>
         <SocialMediaLinks cName='footer-links' />
         <div className='footer-copyright'>
             <Footer />

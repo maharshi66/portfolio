@@ -2,7 +2,7 @@
   font-size: 1.2rem;
   color: lightgray;
   display: flex;
-  padding: 1rem 1rem;
+  padding: 1rem 0rem;
 }
 
 .nav-links:hover {
