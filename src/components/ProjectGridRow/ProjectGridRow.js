@@ -10,13 +10,13 @@ const ProjectGridRow = ({title, description, image, elements}) => {
             <Row xs={1} md={2} className='justify-content-space-around'>
                 <div> 
                     <div
-                        data-aos="fade-right"
+                        data-aos="zoom-in"
                         data-aos-delay="300"
                         className='div1'>
                             Image
                     </div>
                     <div 
-                        data-aos="fade-left"
+                        data-aos="zoom-in"
                         data-aos-delay="300"                
                         className='div2'>
                         <CustomTitle title={title} type='project-title' />
@@ -24,7 +24,7 @@ const ProjectGridRow = ({title, description, image, elements}) => {
                     </div>
                 </div>
                 <div
-                    data-aos="fade-left"
+                    data-aos="zoom-in"
                     data-aos-delay="300"   
                     className='div3'>
                     Mongo Express React Node

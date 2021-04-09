@@ -22,8 +22,8 @@ const AboutTechnologies = () => {
          </Col>   
          <Col className='my-3 my-md-5' md={6} xs={12}>
             <div             
-                data-aos="fade-left"
-                data-aos-delay="800">
+                data-aos="zoom-in"
+                data-aos-delay="300">
             <SkillsBar />
             </div>
          </Col>
