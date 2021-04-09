@@ -7,6 +7,7 @@ import AboutSection from './sections/AboutSection/AboutSection';
 import FooterSection from './sections/FooterSection/FooterSection';
 import EmptySection from './sections/EmptySection'
 import './App.css';
+import ProjectsSection from './sections/ProjectsSection/ProjectsSection';
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
       <HomeSection />
       <EmptySection />
       <AboutSection />
+      <EmptySection />
+      <ProjectsSection />
       <EmptySection />
       <FooterSection />
     </div>
