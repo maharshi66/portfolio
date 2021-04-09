@@ -4,7 +4,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 import ProfileImage from '../../components/ProfileImage/ProfileImage';
 import './HomeSection.scss';
 import CustomButton from '../../components/CustomButton/CustomButton';
-import CustomParagraph from '../../components/CustomPararaph/CustomParagraph';
+import CustomParagraph from '../../components/CustomParagraph/CustomParagraph';
 import CustomTitle from '../../components/CustomTitle/CustomTitle';
 
 const HomeSection = () => {

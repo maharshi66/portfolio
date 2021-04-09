@@ -7,7 +7,7 @@ const headerNavigationItems = [
     },
     {
         label: "Projects",
-        section: "home",
+        section: "projects",
         cName: 'nav-link',
         logo: ''
     },

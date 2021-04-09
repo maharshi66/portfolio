@@ -1,16 +1,18 @@
 import React from 'react'
-import {Image} from 'react-bootstrap';
+import {Figure} from 'react-bootstrap';
 import './ImageLinkContainer.css'
-const ImageLinkContainer = ({imgSrc, href, alt}) => {
+
+const ImageLinkContainer = ({imgSrc, href, alt, width, height}) => {
     return (
             <a href={href} target='__blank'>
-                <Image 
-                    className='image-link h-100 w-100' 
-                    fluid 
+                <Figure.Image
+                    fluid
+                    width={`${width}`}
+                    height={`${height}`}
+                    className='image-link' 
                     src={imgSrc} 
                     alt={alt}
-                    thumbnail
-                    />
+                />
             </a>
     )
 }

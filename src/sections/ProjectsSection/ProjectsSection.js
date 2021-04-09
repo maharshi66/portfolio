@@ -1,18 +1,28 @@
 import React from 'react'
 import {Container, Row } from 'react-bootstrap';
+import CustomTitle from '../../components/CustomTitle/CustomTitle';
+import ProjectGridRow from '../../components/ProjectGridRow/ProjectGridRow';
 import './ProjectsSection.css';
 
 const ProjectsSection = () => {
     return (
-        <Container>
-            <Row xs={1} md={2} className='justify-content-space-around'>
-                <div className='div1'>
-                    Project ImageLinkContainer
-                </div>
-                <div className='div2'>
-                    Project Description
-                </div>
-            </Row>    
+        <Container id='projects'>
+            <CustomTitle title='Projects' type='title' />
+            <ProjectGridRow 
+                title="Sample Title" 
+                description="Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit. 
+                            Duis aliquet aliquam porttitor." />
+            <ProjectGridRow 
+                title="Sample Title" 
+                description="Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit. 
+                            Duis aliquet aliquam porttitor." />                            
+            <ProjectGridRow 
+                title="Sample Title" 
+                description="Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit. 
+                            Duis aliquet aliquam porttitor." />                            
         </Container>
     )
 }

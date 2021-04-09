@@ -20,7 +20,13 @@
   text-align: left;
 }
 
-@media screen and (max-width: 960px) {
+.project-description {
+  color: lightgray;
+  font-size: 16px;
+  padding: 0rem 0.3rem;
+}
+
+@media screen and (max-width: 768px) {
   .simple-paragraph {
     font-size: 16px;
   }
@@ -36,5 +42,9 @@
     font-size: 14px;
     text-align: center;
     margin: 1rem 0;
+  }
+
+  .project-description {
+    font-size: 14px;
   }
 }

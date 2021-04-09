@@ -8,8 +8,16 @@
   color: lightgray;
   font-size: 30px;
   font-weight: bold;
+  text-align: center;
 }
 
+.project-title {
+  color: burlywood;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+}
 .rotate {
   animation: rotate 4.5s linear infinite;
 }

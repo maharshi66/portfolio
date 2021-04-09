@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col} from 'react-bootstrap';
 import CustomTitle from '../components/CustomTitle/CustomTitle';
-import CustomParagraph from '../components/CustomPararaph/CustomParagraph';
+import CustomParagraph from '../components/CustomParagraph/CustomParagraph';
 import SkillsBar from '../components/SkillsBar/SkillsBar';
 
 const AboutTechnologies = () => {
@@ -21,7 +21,11 @@ const AboutTechnologies = () => {
                 </div>
          </Col>   
          <Col className='my-3 my-md-5' md={6} xs={12}>
+            <div             
+                data-aos="fade-left"
+                data-aos-delay="800">
             <SkillsBar />
+            </div>
          </Col>
         </React.Fragment>
     )
