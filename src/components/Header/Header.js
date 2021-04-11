@@ -32,7 +32,10 @@ const Header = () => {
                             linkUrl={item.linkUrl} />
                     ))
                 }
-                <CustomButton text='Resume' />
+                <CustomButton 
+                    isAnchor={true}
+                    href=''
+                    text='Resume' />
             </div>
         </div>
     )
