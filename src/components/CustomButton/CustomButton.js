@@ -14,7 +14,7 @@ const CustomButton = ({handleClick, icon, text, isAnchor, href}) => {
                     <i className={icon}></i>
                 </button>
                 : 
-                <a href={href}>
+                <a href={href} target="_blank" rel="noreferrer">
                 <button 
                     onClick={handleClick} 
                     className='btn 

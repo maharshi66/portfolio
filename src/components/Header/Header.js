@@ -34,7 +34,7 @@ const Header = () => {
                 }
                 <CustomButton 
                     isAnchor={true}
-                    href=''
+                    href='https://maharshi66.github.io/portfolio/static/media/resume.pdf'
                     text='Resume' />
             </div>
         </div>
